@@ -35,6 +35,6 @@ gulp.task('sass', function() {
       }
     }))
     .pipe(sourcemaps.write('./maps'))
-    .pipe(gulp.dest("css"))
+    .pipe(gulp.dest("static/css"))
     .pipe(browsersync.stream());
 });
