@@ -20,13 +20,13 @@ gulp.task('serve', ['sass'], function() {
     notify: false
   });
 
-  gulp.watch("scss/*.scss", ['sass']);
+  gulp.watch("sass/*.scss", ['sass']);
   gulp.watch("*.html").on('change', browsersync.reload);
 });
 
 // Compile sass into CSS & auto-inject into browsers
 gulp.task('sass', function() {
-  return gulp.src("scss/*.scss")
+  return gulp.src("sass/*.scss")
     .pipe(sourcemaps.init())
     .pipe(sass({
       outputStyle: 'nested',
