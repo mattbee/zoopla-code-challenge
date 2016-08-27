@@ -1,3 +1,37 @@
+/*=================
+Header Module
+==================*/
+
 .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+
+  // Media query updates.
+  @media only (max-width: $breakpoint-small - 1 ) {
+    flex-wrap: wrap;
+    width: 100%;
+  }
   
+  // Elements within this block
+  &__logo {
+    @media only (min-width: $breakpoint-small) {
+      width: 200px;
+    }
+    @media only (max-width: $breakpoint-small - 1 ) {
+      max-width: 200px;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+
+
+/*=================
+Footer Module
+==================*/
+
+footer {
+  padding: 20px;
 }
