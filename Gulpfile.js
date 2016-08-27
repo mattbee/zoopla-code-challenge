@@ -29,7 +29,7 @@ gulp.task('sass', function() {
   return gulp.src("scss/*.scss")
     .pipe(sourcemaps.init())
     .pipe(sass({
-      outputStyle: 'compressed',
+      outputStyle: 'nested',
       onError: function(err) {
         return console.log(err);
       }
