@@ -1,0 +1,25 @@
+{
+  "name": "mattbee-frontend-exercise",
+  "version": "1.0.0",
+  "description": "Development exercise for Zoopla Front End Developer Role",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattbee/zoopla-code-challenge.git"
+  },
+  "author": "",
+  "license": "None",
+  "bugs": {
+    "url": "https://github.com/mattbee/zoopla-code-challenge/issues"
+  },
+  "homepage": "https://github.com/mattbee/zoopla-code-challenge#readme",
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}
