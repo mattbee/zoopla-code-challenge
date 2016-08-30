@@ -44,6 +44,12 @@ Header Module
     width: 100%; }
 
 /*=================
+Main Module
+==================*/
+main {
+  padding: 20px; }
+
+/*=================
 Footer Module
 ==================*/
 footer {
@@ -66,13 +72,15 @@ footer {
   .header__nav-item--sub {
     font-size: 1rem; }
 
-.footer__nav-list {
-  display: flex; }
+.footer {
+  background: #f6f6f6;
+  font-size: 0.9rem; }
+  .footer__nav-list {
+    display: flex; }
+  .footer__nav-item {
+    margin-right: 1em; }
 
-.footer__nav-item {
-  font-size: 1.2rem;
-  margin-right: 1em; }
-  .footer__nav-item--sub {
-    font-size: 1rem; }
+.js .accordion__body {
+  overflow: hidden; }
 
 /*# sourceMappingURL=maps/all.css.map */

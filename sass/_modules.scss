@@ -27,15 +27,21 @@
 
 
 .footer {
+  background: #f6f6f6;
+  font-size: 0.9rem;
   &__nav-list {
     display: flex;
   }
   &__nav-item {
-    font-size: 1.2rem;
     margin-right: 1em;
+  }
+}
 
-    &--sub {
-      font-size: 1rem;
+
+.js {
+  .accordion {
+    &__body {
+      overflow: hidden;
     }
   }
 }
